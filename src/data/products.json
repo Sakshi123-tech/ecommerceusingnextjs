@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "title": "Smartwatch",
+    "price": 249,
+    "category": "electronics",
+    "rating": 4.4,
+    "image": "/images/smartwatch.jpg",
+    "description": "Smartwatch with fitness tracking features."
+  },
+  {
+    "id": 2,
+    "title": "Gaming Laptop",
+    "price": 1499,
+    "category": "electronics",
+    "rating": 4.8,
+    "image": "/images/laptop.jpg",
+    "description": "High-performance gaming laptop."
+  },
+  {
+    "id": 3,
+    "title": "Bluetooth Speaker",
+    "price": 89,
+    "category": "electronics",
+    "rating": 4.3,
+    "image": "/images/speaker.jpg",
+    "description": "Portable Bluetooth speaker with great sound quality."
+  },
+  {
+    "id": 4,
+    "title": "Smart TV",
+    "price": 899,
+    "category": "electronics",
+    "rating": 4.9,
+    "image": "/images/tv.jpg",
+    "description": "4K Smart TV with streaming capabilities."
+  },
+  {
+    "id": 5,
+    "title": "Digital Camera",
+    "price": 599,
+    "category": "electronics",
+    "rating": 4.6,
+    "image": "/images/camera.jpg",
+    "description": "High-resolution digital camera for photography enthusiasts."
+  },
+  {
+    "id": 6,
+    "title": "Fitness Tracker",
+    "price": 129,
+    "category": "electronics",
+    "rating": 4.2,
+    "image": "/images/fitness_tracker.jpg",
+    "description": "Wearable fitness tracker with health monitoring features."
+  },
+  {
+    "id": 7,
+    "title": "Vacuum Cleaner",
+    "price": 159,
+    "category": "home",
+    "rating": 4.5,
+    "image": "/images/vacuum.jpg",
+    "description": "Powerful vacuum cleaner with HEPA filter."
+  },
+  {
+    "id": 8,
+    "title": "Air Purifier",
+    "price": 199,
+    "category": "home",
+    "rating": 4.6,
+    "image": "/images/air_purifier.jpg",
+    "description": "Removes allergens and dust from the air."
+  },
+  {
+    "id": 9,
+    "title": "Blender",
+    "price": 89,
+    "category": "home",
+    "rating": 4.4,
+    "image": "/images/blender.jpg",
+    "description": "High-speed blender for smoothies and soups."
+  },
+  {
+    "id": 10,
+    "title": "Coffee Maker",
+    "price": 129,
+    "category": "home",
+    "rating": 4.7,
+    "image": "/images/coffee_maker.jpg",
+    "description": "Programmable coffee maker with auto-shutoff."
+  },
+  {
+    "id": 11,
+    "title": "Air Fryer",
+    "price": 149,
+    "category": "home",
+    "rating": 4.8,
+    "image": "/images/air_fryer.jpg",
+    "description": "Healthy cooking with less oil."
+  },
+  {
+    "id": 12,
+    "title": "Microwave Oven",
+    "price": 179,
+    "category": "home",
+    "rating": 4.5,
+    "image": "/images/microwave.jpg",
+    "description": "Compact and efficient microwave oven."
+  },
+  {
+    "id": 13,
+    "title": "Table",
+    "price": 69,
+    "category": "home",
+    "rating": 4.3,
+    "image": "/images/table.jpg",
+    "description": "Easy-to-use rice cooker with warm function."
+  },
+  {
+    "id": 14,
+    "title": "Ceiling Fan",
+    "price": 129,
+    "category": "home",
+    "rating": 4.4,
+    "image": "/images/ceiling_fan.jpg",
+    "description": "Energy-efficient ceiling fan with remote."
+  },
+  {
+    "id": 15,
+    "title": "LED Floor Lamp",
+    "price": 59,
+    "category": "home",
+    "rating": 4.5,
+    "image": "/images/floor_lamp.jpg",
+    "description": "Modern LED floor lamp with dimming options."
+  },
+  {
+    "id": 16,
+    "title": "Men's T-Shirt",
+    "price": 25,
+    "category": "Clothing",
+    "rating": 4.3,
+    "image": "/images/mens_tshirt.jpg",
+    "description": "Comfortable cotton T-shirt in various colors."
+  },
+  {
+    "id": 17,
+    "title": "Women's Hoodie",
+    "price": 49,
+    "category": "Clothing",
+    "rating": 4.6,
+    "image": "/images/womens_hoodie.jpg",
+    "description": "Soft fleece-lined hoodie for everyday wear."
+  },
+  {
+    "id": 18,
+    "title": "Men's Jeans",
+    "price": 59,
+    "category": "Clothing",
+    "rating": 4.5,
+    "image": "/images/mens_jeans.jpg",
+    "description": "Classic fit denim jeans with stretch."
+  },
+  {
+    "id": 19,
+    "title": "Women's Dress",
+    "price": 79,
+    "category": "Clothing",
+    "rating": 4.7,
+    "image": "/images/womens_dress.jpg",
+    "description": "Elegant evening dress for special occasions."
+  },
+  {
+    "id": 20,
+    "title": "Sportswear Set",
+    "price": 69,
+    "category": "Clothing",
+    "rating": 4.4,
+    "image": "/images/sportswear.jpg",
+    "description": "Breathable activewear for workouts."
+  },
+  {
+    "id": 21,
+    "title": "Winter Jacket",
+    "price": 129,
+    "category": "Clothing",
+    "rating": 4.8,
+    "image": "/images/winter_jacket.jpg",
+    "description": "Warm insulated jacket for cold weather."
+  },
+  {
+    "id": 22,
+    "title": "Sneakers",
+    "price": 99,
+    "category": "Clothing",
+    "rating": 4.5,
+    "image": "/images/sneakers.jpg",
+    "description": "Stylish and comfortable sneakers."
+  },
+  {
+    "id": 23,
+    "title": "Socks (Pack of 5)",
+    "price": 15,
+    "category": "Clothing",
+    "rating": 4.2,
+    "image": "/images/socks.jpg",
+    "description": "Soft and durable everyday socks."
+  },
+  {
+    "id": 24,
+    "title": "Baseball Cap",
+    "price": 19,
+    "category": "Clothing",
+    "rating": 4.4,
+    "image": "/images/baseball_cap.jpg",
+    "description": "Adjustable cap with breathable fabric."
+  }
+]
