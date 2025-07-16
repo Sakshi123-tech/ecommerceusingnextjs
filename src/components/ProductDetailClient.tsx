@@ -6,9 +6,9 @@ import products from "@/data/products.json";
 import { useCart } from "@/store/useCart";
 import Image from "next/image";
 
-interface Props {}
 
-export default function ProductDetailClient({}: Props) {
+
+export default function ProductDetailClient() {
   const { id } = useParams();
   const product = products.find((p) => p.id.toString() === id);
 
@@ -22,7 +22,7 @@ export default function ProductDetailClient({}: Props) {
   }
 
   const handleAddToCart = () => {
-    addToCart({ ...product, qty: quantity });
+  addToCart({ ...product, qty: quantity });
 
     alert("Item added to cart successfully!");
   };

@@ -4,11 +4,13 @@ import { useCart } from "@/store/useCart";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function ProductCard({ product }: { product: any }) {
+import type { Product } from "@/types"; // Adjust if path is different
+
+export default function ProductCard({ product }: { product: Product }) {
   const addToCart = useCart((state) => state.addItem);
 
   const handleAddToCart = () => {
-    addToCart({ ...product, quantity: 1 });
+    addToCart({ ...product, qty: 1 });
     alert("Item added to cart successfully!");
   };
 

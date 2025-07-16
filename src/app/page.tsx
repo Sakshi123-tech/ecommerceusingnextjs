@@ -32,7 +32,7 @@ export default function Page() {
 
       return matchesCategory && matchesPrice && matchesSearch;
     });
-  }, [searchTerm, category, minPrice, maxPrice, products]);
+  }, [searchTerm, category, minPrice, maxPrice]);
 
   return (
     <>
