@@ -3,7 +3,7 @@
 import dynamic from "next/dynamic";
 import React, { Suspense } from "react";
 
-// ✅ Lazy load the HomeClient component
+
 const HomeClient = dynamic(() => import("@/components/HomeClient"), {
   ssr: false,
   loading: () => <p className="text-center p-8">Loading...</p>,
