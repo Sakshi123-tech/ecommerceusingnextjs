@@ -2,10 +2,10 @@
 
 import { useSearchParams } from "next/navigation";
 import { useMemo, useState } from "react";
-import products from "@/data/products.json";
-import ProductCard from "@/components/ProductCard";
-import FiltersSidebar from "@/components/FiltersSidebar";
 import Header from "@/components/Header";
+import FiltersSidebar from "@/components/FiltersSidebar";
+import ProductCard from "@/components/ProductCard";
+import products from "@/data/products.json";
 
 export default function HomeClient() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -31,7 +31,7 @@ export default function HomeClient() {
 
       return matchesCategory && matchesPrice && matchesSearch;
     });
-  }, [searchTerm, category, minPrice, maxPrice]);
+  }, [category, minPrice, maxPrice, searchTerm]);
 
   return (
     <>
