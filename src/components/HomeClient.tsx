@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import FiltersSidebar from "@/components/FiltersSidebar";
 import ProductCard from "@/components/ProductCard";
 import products from "@/data/products.json";
+import Footer from "./Footer";
 
 export default function HomeClient() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -53,6 +54,7 @@ export default function HomeClient() {
           )}
         </section>
       </main>
+      <Footer />
     </>
   );
 }
