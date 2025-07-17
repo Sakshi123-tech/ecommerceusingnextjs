@@ -69,7 +69,8 @@ export default function CartPage() {
             {filteredItems.map((item) => (
               <div
                 key={item.id}
-                className="flex items-center justify-between bg-white shadow-lg rounded-lg p-4 mb-4"
+                className="flex flex-col sm:flex-row sm:items-center sm:justify-between bg-white shadow-lg rounded-lg p-4 mb-4 gap-4"
+
               >
                 <div className="flex items-center gap-4">
                   <Image
